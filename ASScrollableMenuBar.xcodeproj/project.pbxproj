@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A922C27D14A4C36A003B73E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922C27C14A4C36A003B73E4 /* UIKit.framework */; };
+		A922C27F14A4C36A003B73E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922C27E14A4C36A003B73E4 /* Foundation.framework */; };
+		A922C28114A4C36A003B73E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922C28014A4C36A003B73E4 /* CoreGraphics.framework */; };
+		A922C28714A4C36A003B73E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A922C28514A4C36A003B73E4 /* InfoPlist.strings */; };
+		A922C28914A4C36A003B73E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A922C28814A4C36A003B73E4 /* main.m */; };
+		A922C28D14A4C36A003B73E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A922C28C14A4C36A003B73E4 /* AppDelegate.m */; };
+		A922C29014A4C36B003B73E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A922C28F14A4C36B003B73E4 /* ViewController.m */; };
+		A922C29314A4C36B003B73E4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A922C29114A4C36B003B73E4 /* ViewController.xib */; };
+		A922C2A114A4C44F003B73E4 /* ASScrollableMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A922C29B14A4C44F003B73E4 /* ASScrollableMenuBar.m */; };
+		A922C2A214A4C44F003B73E4 /* left_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A922C29D14A4C44F003B73E4 /* left_button.png */; };
+		A922C2A314A4C44F003B73E4 /* menu_bar_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = A922C29E14A4C44F003B73E4 /* menu_bar_indicator.png */; };
+		A922C2A414A4C44F003B73E4 /* menu_item_back.png in Resources */ = {isa = PBXBuildFile; fileRef = A922C29F14A4C44F003B73E4 /* menu_item_back.png */; };
+		A922C2A514A4C44F003B73E4 /* right_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A922C2A014A4C44F003B73E4 /* right_button.png */; };
+		A922C2A714A4CB0D003B73E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A922C2A614A4CB0D003B73E4 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A922C27814A4C36A003B73E4 /* ASScrollableMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASScrollableMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A922C27C14A4C36A003B73E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A922C27E14A4C36A003B73E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A922C28014A4C36A003B73E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A922C28414A4C36A003B73E4 /* ASScrollableMenuBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASScrollableMenuBar-Info.plist"; sourceTree = "<group>"; };
+		A922C28614A4C36A003B73E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A922C28814A4C36A003B73E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A922C28A14A4C36A003B73E4 /* ASScrollableMenuBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASScrollableMenuBar-Prefix.pch"; sourceTree = "<group>"; };
+		A922C28B14A4C36A003B73E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A922C28C14A4C36A003B73E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A922C28E14A4C36A003B73E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A922C28F14A4C36B003B73E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A922C29214A4C36B003B73E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A922C29A14A4C44F003B73E4 /* ASScrollableMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASScrollableMenuBar.h; path = Source/ASScrollableMenuBar.h; sourceTree = "<group>"; };
+		A922C29B14A4C44F003B73E4 /* ASScrollableMenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASScrollableMenuBar.m; path = Source/ASScrollableMenuBar.m; sourceTree = "<group>"; };
+		A922C29D14A4C44F003B73E4 /* left_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_button.png; sourceTree = "<group>"; };
+		A922C29E14A4C44F003B73E4 /* menu_bar_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_bar_indicator.png; sourceTree = "<group>"; };
+		A922C29F14A4C44F003B73E4 /* menu_item_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_item_back.png; sourceTree = "<group>"; };
+		A922C2A014A4C44F003B73E4 /* right_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_button.png; sourceTree = "<group>"; };
+		A922C2A614A4CB0D003B73E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A922C27514A4C36A003B73E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922C27D14A4C36A003B73E4 /* UIKit.framework in Frameworks */,
+				A922C27F14A4C36A003B73E4 /* Foundation.framework in Frameworks */,
+				A922C28114A4C36A003B73E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A922C26D14A4C36A003B73E4 = {
+			isa = PBXGroup;
+			children = (
+				A922C2A614A4CB0D003B73E4 /* README.md */,
+				A922C29914A4C3B7003B73E4 /* Source */,
+				A922C28214A4C36A003B73E4 /* ASScrollableMenuBar */,
+				A922C27B14A4C36A003B73E4 /* Frameworks */,
+				A922C27914A4C36A003B73E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A922C27914A4C36A003B73E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A922C27814A4C36A003B73E4 /* ASScrollableMenuBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A922C27B14A4C36A003B73E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A922C27C14A4C36A003B73E4 /* UIKit.framework */,
+				A922C27E14A4C36A003B73E4 /* Foundation.framework */,
+				A922C28014A4C36A003B73E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A922C28214A4C36A003B73E4 /* ASScrollableMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				A922C28B14A4C36A003B73E4 /* AppDelegate.h */,
+				A922C28C14A4C36A003B73E4 /* AppDelegate.m */,
+				A922C28E14A4C36A003B73E4 /* ViewController.h */,
+				A922C28F14A4C36B003B73E4 /* ViewController.m */,
+				A922C29114A4C36B003B73E4 /* ViewController.xib */,
+				A922C28314A4C36A003B73E4 /* Supporting Files */,
+			);
+			path = ASScrollableMenuBar;
+			sourceTree = "<group>";
+		};
+		A922C28314A4C36A003B73E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A922C28414A4C36A003B73E4 /* ASScrollableMenuBar-Info.plist */,
+				A922C28514A4C36A003B73E4 /* InfoPlist.strings */,
+				A922C28814A4C36A003B73E4 /* main.m */,
+				A922C28A14A4C36A003B73E4 /* ASScrollableMenuBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A922C29914A4C3B7003B73E4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A922C29A14A4C44F003B73E4 /* ASScrollableMenuBar.h */,
+				A922C29B14A4C44F003B73E4 /* ASScrollableMenuBar.m */,
+				A922C29C14A4C44F003B73E4 /* images */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		A922C29C14A4C44F003B73E4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A922C29D14A4C44F003B73E4 /* left_button.png */,
+				A922C29E14A4C44F003B73E4 /* menu_bar_indicator.png */,
+				A922C29F14A4C44F003B73E4 /* menu_item_back.png */,
+				A922C2A014A4C44F003B73E4 /* right_button.png */,
+			);
+			name = images;
+			path = Source/images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A922C27714A4C36A003B73E4 /* ASScrollableMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A922C29614A4C36B003B73E4 /* Build configuration list for PBXNativeTarget "ASScrollableMenuBar" */;
+			buildPhases = (
+				A922C27414A4C36A003B73E4 /* Sources */,
+				A922C27514A4C36A003B73E4 /* Frameworks */,
+				A922C27614A4C36A003B73E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASScrollableMenuBar;
+			productName = ASScrollableMenuBar;
+			productReference = A922C27814A4C36A003B73E4 /* ASScrollableMenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A922C26F14A4C36A003B73E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A922C27214A4C36A003B73E4 /* Build configuration list for PBXProject "ASScrollableMenuBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A922C26D14A4C36A003B73E4;
+			productRefGroup = A922C27914A4C36A003B73E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A922C27714A4C36A003B73E4 /* ASScrollableMenuBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A922C27614A4C36A003B73E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922C28714A4C36A003B73E4 /* InfoPlist.strings in Resources */,
+				A922C29314A4C36B003B73E4 /* ViewController.xib in Resources */,
+				A922C2A214A4C44F003B73E4 /* left_button.png in Resources */,
+				A922C2A314A4C44F003B73E4 /* menu_bar_indicator.png in Resources */,
+				A922C2A414A4C44F003B73E4 /* menu_item_back.png in Resources */,
+				A922C2A514A4C44F003B73E4 /* right_button.png in Resources */,
+				A922C2A714A4CB0D003B73E4 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A922C27414A4C36A003B73E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922C28914A4C36A003B73E4 /* main.m in Sources */,
+				A922C28D14A4C36A003B73E4 /* AppDelegate.m in Sources */,
+				A922C29014A4C36B003B73E4 /* ViewController.m in Sources */,
+				A922C2A114A4C44F003B73E4 /* ASScrollableMenuBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A922C28514A4C36A003B73E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A922C28614A4C36A003B73E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A922C29114A4C36B003B73E4 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A922C29214A4C36B003B73E4 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A922C29414A4C36B003B73E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A922C29514A4C36B003B73E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A922C29714A4C36B003B73E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASScrollableMenuBar/ASScrollableMenuBar-Prefix.pch";
+				INFOPLIST_FILE = "ASScrollableMenuBar/ASScrollableMenuBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A922C29814A4C36B003B73E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASScrollableMenuBar/ASScrollableMenuBar-Prefix.pch";
+				INFOPLIST_FILE = "ASScrollableMenuBar/ASScrollableMenuBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A922C27214A4C36A003B73E4 /* Build configuration list for PBXProject "ASScrollableMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922C29414A4C36B003B73E4 /* Debug */,
+				A922C29514A4C36B003B73E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A922C29614A4C36B003B73E4 /* Build configuration list for PBXNativeTarget "ASScrollableMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922C29714A4C36B003B73E4 /* Debug */,
+				A922C29814A4C36B003B73E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A922C26F14A4C36A003B73E4 /* Project object */;
+}
