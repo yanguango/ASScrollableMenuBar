@@ -22,6 +22,7 @@
     _itemBackImage = [UIImage imageNamed:@"menu_item_back"];
     _indicatorImage = [UIImage imageNamed:@"menu_bar_indicator"];
     _indicatorView = [[UIImageView alloc] initWithImage:_indicatorImage];
+    _menuItems = [[NSArray alloc] init];
     
     _leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [_leftButton setImage:_leftImage forState:UIControlStateNormal];
