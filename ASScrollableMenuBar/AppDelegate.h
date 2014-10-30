@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  ASScrollableMenuBar
 //
-//  Created by bl0ckme on 12/21/11.
-//  Copyright (c) 2011 bl0ckme. All rights reserved.
+//  Created by yanguango on 12/21/11.
+//  Copyright (c) 2011 yanguango. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
